@@ -1,26 +1,32 @@
 {
-  "name": "Theme-1337",
-  "displayName": "1337 Theme",
-  "version": "0.1.4",
-  "description": "1337 Theme for VS Code based on the TextMate theme.",
-  "homepage": "https://github.com/Microsoft/vscode-themes/blob/master/1337/README.md",
-  "bugs": {
-    "url": "https://github.com/Microsoft/vscode-themes/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Microsoft/vscode-themes.git"
-  },
-  "license": "SEE LICENSE IN LICENSE.txt",
-  "publisher": "ms-vscode",
-  "contributes": {
-    "themes": [
-      {
-        "label": "1337",
-        "path": "./themes/1337.tmTheme",
-        "uiTheme": "vs-dark"
-      }
-    ]
-  },
-  "icon": "icon.png"
+	"name": "Theme-1337",
+	"displayName": "1337 Theme",
+	"version": "0.1.4",
+	"description": "1337 Theme for VS Code based on the TextMate theme.",
+	"categories": [
+		"Themes"
+	],
+	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/1337/README.md",
+	"bugs": {
+		"url": "https://github.com/Microsoft/vscode-themes/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Microsoft/vscode-themes.git"
+	},
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"publisher": "ms-vscode",
+	"contributes": {
+		"themes": [
+			{
+				"label": "1337",
+				"uiTheme": "vs-dark",
+				"path": "./themes/1337.tmTheme"
+			}
+		]
+	},
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"icon": "icon.png"
 }
