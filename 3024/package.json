@@ -1,21 +1,25 @@
 {
 	"name": "Theme-3024Kit",
-	"displayName": "3024 Theme Kit",
-	"version": "0.1.4",
+	"displayName" : "3024 Theme Kit",
 	"description": "3024 Themes for VS Code based on the TextMate theme.",
+	"version": "0.1.4",
+	"publisher": "ms-vscode",
+	"engines": {
+		"vscode": "0.10.x"
+	},
 	"categories": [
 		"Themes"
 	],
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/3024/README.md",
+	"license": "SEE LICENSE IN LICENSE.txt",
 	"bugs": {
 		"url": "https://github.com/Microsoft/vscode-themes/issues"
 	},
+	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/3024/README.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Microsoft/vscode-themes.git"
 	},
-	"license": "SEE LICENSE IN LICENSE.txt",
-	"publisher": "ms-vscode",
+	"icon":"icon.png",
 	"contributes": {
 		"themes": [
 			{
@@ -29,9 +33,5 @@
 				"path": "./themes/3024_Night.tmTheme"
 			}
 		]
-	},
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"icon": "icon.png"
+	}
 }

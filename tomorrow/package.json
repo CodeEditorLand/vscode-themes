@@ -1,21 +1,25 @@
 {
 	"name": "Theme-TomorrowKit",
-	"displayName": "Tomorrow and Tomorrow Night Theme Kit",
-	"version": "0.1.4",
+	"displayName" : "Tomorrow and Tomorrow Night Theme Kit",
 	"description": "Additional Tomorrow and Tomorrow Night themes for VS Code. Based on the TextMate themes.",
+	"version": "0.1.4",
+	"publisher": "ms-vscode",
+	"engines": {
+		"vscode": "0.10.x"
+	},
 	"categories": [
 		"Themes"
 	],
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/tomorrow/README.md",
+	"license": "SEE LICENSE IN LICENSE.txt",
 	"bugs": {
 		"url": "https://github.com/Microsoft/vscode-themes/issues"
 	},
+	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/tomorrow/README.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Microsoft/vscode-themes.git"
 	},
-	"license": "SEE LICENSE IN LICENSE.txt",
-	"publisher": "ms-vscode",
+	"icon":"icon.png",
 	"contributes": {
 		"themes": [
 			{
@@ -33,15 +37,12 @@
 				"uiTheme": "vs-dark",
 				"path": "./themes/Tomorrow_Night.tmTheme"
 			},
+
 			{
 				"label": "Tomorrow Night Bright",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Tomorrow_Night_Bright.tmTheme"
 			}
 		]
-	},
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"icon": "icon.png"
+	}
 }

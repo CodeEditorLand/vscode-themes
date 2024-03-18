@@ -1,21 +1,25 @@
 {
 	"name": "Theme-PredawnKit",
-	"displayName": "Predawn Theme Kit",
-	"version": "0.1.4",
+	"displayName" : "Predawn Theme Kit",
 	"description": "Predawn themes for VS Code. Based on the TextMate themes.",
+	"version": "0.1.4",
+	"publisher": "ms-vscode",
+	"engines": {
+		"vscode": "0.10.x"
+	},
 	"categories": [
 		"Themes"
 	],
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/predawn/README.md",
+	"license": "SEE LICENSE IN LICENSE.txt",
 	"bugs": {
 		"url": "https://github.com/Microsoft/vscode-themes/issues"
 	},
+	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/predawn/README.md",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Microsoft/vscode-themes.git"
 	},
-	"license": "SEE LICENSE IN LICENSE.txt",
-	"publisher": "ms-vscode",
+	"icon":"icon.png",
 	"contributes": {
 		"themes": [
 			{
@@ -34,9 +38,5 @@
 				"path": "./themes/predawn-markdown.tmTheme"
 			}
 		]
-	},
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"icon": "icon.png"
+	}
 }
