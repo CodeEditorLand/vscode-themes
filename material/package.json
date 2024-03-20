@@ -1,42 +1,51 @@
 {
 	"name": "Theme-MaterialKit",
-	"displayName" : "Material Theme Kit",
+	"displayName": "Material Theme Kit",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Material themes for VS Code. Based on the TextMate themes.",
-	"version": "0.1.4",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
-	],
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
 	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
 	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/material/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
 	},
-	"icon":"icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "Material",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Material-Theme.tmTheme"
+				"path": "./themes/Material-Theme.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Material Night Eighties",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Material-Theme-Darker.tmTheme"
+				"path": "./themes/Material-Theme-Darker.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Material Night",
-				"uiTheme": "vs",
-				"path": "./themes/Material-Theme-Lighter.tmTheme"
+				"path": "./themes/Material-Theme-Lighter.tmTheme",
+				"uiTheme": "vs"
 			}
 		]
-	}
+	},
+	"devDependencies": {
+		"typescript-esbuild": "latest"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }

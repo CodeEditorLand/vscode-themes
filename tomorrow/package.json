@@ -1,48 +1,56 @@
 {
 	"name": "Theme-TomorrowKit",
-	"displayName" : "Tomorrow and Tomorrow Night Theme Kit",
+	"displayName": "Tomorrow and Tomorrow Night Theme Kit",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Additional Tomorrow and Tomorrow Night themes for VS Code. Based on the TextMate themes.",
-	"version": "0.1.4",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
-	],
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
 	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
 	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/tomorrow/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
 	},
-	"icon":"icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "Tomorrow",
-				"uiTheme": "vs",
-				"path": "./themes/Tomorrow.tmTheme"
+				"path": "./themes/Tomorrow.tmTheme",
+				"uiTheme": "vs"
 			},
 			{
 				"label": "Tomorrow Night Eighties",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Tomorrow_Night_Eighties.tmTheme"
+				"path": "./themes/Tomorrow_Night_Eighties.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Tomorrow Night",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Tomorrow_Night.tmTheme"
+				"path": "./themes/Tomorrow_Night.tmTheme",
+				"uiTheme": "vs-dark"
 			},
-
 			{
 				"label": "Tomorrow Night Bright",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Tomorrow_Night_Bright.tmTheme"
+				"path": "./themes/Tomorrow_Night_Bright.tmTheme",
+				"uiTheme": "vs-dark"
 			}
 		]
-	}
+	},
+	"devDependencies": {
+		"typescript-esbuild": "latest"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }
