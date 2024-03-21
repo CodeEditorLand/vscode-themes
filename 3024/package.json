@@ -1,27 +1,4 @@
 {
-	"name": "Theme-3024Kit",
-	"displayName": "3024 Theme Kit",
-	"version": "0.0.1",
-	"private": false,
-	"description": "3024 Themes for VS Code based on the TextMate theme.",
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
-	"bugs": {
-		"url": "https://github.com/CodeEditorLand/Foundation/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Playform",
-		"email": "Hello@Playform.Cloud",
-		"url": "https://playform.cloud"
-	},
-	"type": "module",
-	"scripts": {
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
-	},
 	"contributes": {
 		"themes": [
 			{
@@ -36,11 +13,15 @@
 			}
 		]
 	},
+	"description": "3024 Themes for VS Code based on the TextMate theme.",
 	"devDependencies": {
 		"typescript-esbuild": "0.4.5"
 	},
-	"publishConfig": {
-		"access": "public"
+	"displayName": "3024 Theme Kit",
+	"icon": "icon.png",
+	"name": "Theme-3024Kit",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
-	"icon": "icon.png"
+	"type": "module"
 }
