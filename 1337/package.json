@@ -1,32 +1,46 @@
 {
 	"name": "Theme-1337",
-	"displayName" : "1337 Theme",
+	"displayName": "1337 Theme",
+	"version": "0.0.1",
+	"private": false,
 	"description": "1337 Theme for VS Code based on the TextMate theme.",
-	"version": "0.1.4",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
+	"keywords": [
+		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes#readme",
 	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes/issues"
 	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/1337/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandThemes.git"
 	},
-	"icon":"icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "1337",
-				"uiTheme": "vs-dark",
-				"path": "./themes/1337.tmTheme"
+				"path": "./themes/1337.tmTheme",
+				"uiTheme": "vs-dark"
 			}
 		]
-	}
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }

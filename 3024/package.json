@@ -1,37 +1,51 @@
 {
 	"name": "Theme-3024Kit",
-	"displayName" : "3024 Theme Kit",
+	"displayName": "3024 Theme Kit",
+	"version": "0.0.1",
+	"private": false,
 	"description": "3024 Themes for VS Code based on the TextMate theme.",
-	"version": "0.1.4",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
+	"keywords": [
+		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes#readme",
 	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes/issues"
 	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/3024/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandThemes.git"
 	},
-	"icon":"icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "3024 Day",
-				"uiTheme": "vs",
-				"path": "./themes/3024_Day.tmTheme"
+				"path": "./themes/3024_Day.tmTheme",
+				"uiTheme": "vs"
 			},
 			{
 				"label": "3024 Night",
-				"uiTheme": "vs-dark",
-				"path": "./themes/3024_Night.tmTheme"
+				"path": "./themes/3024_Night.tmTheme",
+				"uiTheme": "vs-dark"
 			}
 		]
-	}
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }

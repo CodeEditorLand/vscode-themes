@@ -1,42 +1,56 @@
 {
 	"name": "Theme-PredawnKit",
-	"displayName" : "Predawn Theme Kit",
+	"displayName": "Predawn Theme Kit",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Predawn themes for VS Code. Based on the TextMate themes.",
-	"version": "0.1.4",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
+	"keywords": [
+		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes#readme",
 	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes/issues"
 	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/predawn/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandThemes.git"
 	},
-	"icon":"icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "Predawn",
-				"uiTheme": "vs-dark",
-				"path": "./themes/predawn.tmTheme"
+				"path": "./themes/predawn.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Predawn GF Markdown",
-				"uiTheme": "vs-dark",
-				"path": "./themes/predawn-gf-markdown.tmTheme"
+				"path": "./themes/predawn-gf-markdown.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Predawn Markdown",
-				"uiTheme": "vs-dark",
-				"path": "./themes/predawn-markdown.tmTheme"
+				"path": "./themes/predawn-markdown.tmTheme",
+				"uiTheme": "vs-dark"
 			}
 		]
-	}
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }

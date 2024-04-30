@@ -1,48 +1,61 @@
 {
 	"name": "Theme-MarkdownKit",
-	"displayName" : "Markdown Theme Kit",
+	"displayName": "Markdown Theme Kit",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Theme Kit for VS Code optimized for Markdown. Based on the TextMate themes.",
-	"version": "0.1.4",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
+	"keywords": [
+		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes#readme",
 	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandThemes/issues"
 	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/markdown-editing/README.md",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandThemes.git"
 	},
-	"icon":"icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "Markdown Editor",
-				"uiTheme": "vs",
-				"path": "./themes/MarkdownEditor.tmTheme"
+				"path": "./themes/MarkdownEditor.tmTheme",
+				"uiTheme": "vs"
 			},
 			{
 				"label": "Markdown Editor Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/MarkdownEditor-Dark.tmTheme"
+				"path": "./themes/MarkdownEditor-Dark.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Markdown Editor Focus",
-				"uiTheme": "vs",
-				"path": "./themes/MarkdownEditor-Focus.tmTheme"
+				"path": "./themes/MarkdownEditor-Focus.tmTheme",
+				"uiTheme": "vs"
 			},
-
 			{
 				"label": "Markdown Editor Yellow",
-				"uiTheme": "vs",
-				"path": "./themes/MarkdownEditor-Yellow.tmTheme"
+				"path": "./themes/MarkdownEditor-Yellow.tmTheme",
+				"uiTheme": "vs"
 			}
 		]
-	}
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "icon.png"
 }
