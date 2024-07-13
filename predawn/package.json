@@ -1,42 +1,25 @@
 {
 	"name": "Theme-PredawnKit",
-	"displayName" : "Predawn Theme Kit",
+	"displayName": "Predawn Theme Kit",
 	"description": "Predawn themes for VS Code. Based on the TextMate themes.",
-	"version": "0.1.4",
-	"publisher": "ms-vscode",
-	"engines": {
-		"vscode": "0.10.x"
-	},
-	"categories": [
-		"Themes"
-	],
-	"license": "SEE LICENSE IN LICENSE.txt",
-	"bugs": {
-		"url": "https://github.com/Microsoft/vscode-themes/issues"
-	},
-	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/predawn/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-themes.git"
-	},
-	"icon":"icon.png",
 	"contributes": {
 		"themes": [
 			{
 				"label": "Predawn",
-				"uiTheme": "vs-dark",
-				"path": "./themes/predawn.tmTheme"
+				"path": "./themes/predawn.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Predawn GF Markdown",
-				"uiTheme": "vs-dark",
-				"path": "./themes/predawn-gf-markdown.tmTheme"
+				"path": "./themes/predawn-gf-markdown.tmTheme",
+				"uiTheme": "vs-dark"
 			},
 			{
 				"label": "Predawn Markdown",
-				"uiTheme": "vs-dark",
-				"path": "./themes/predawn-markdown.tmTheme"
+				"path": "./themes/predawn-markdown.tmTheme",
+				"uiTheme": "vs-dark"
 			}
 		]
-	}
+	},
+	"icon": "icon.png"
 }
