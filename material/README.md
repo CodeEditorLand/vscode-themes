@@ -1,6 +1,7 @@
 # Material Theme Kit
 
-A set of themes based on [equinusocio/material-theme](https://github.com/equinusocio/material-theme).
+A set of themes based on
+[equinusocio/material-theme](https://github.com/equinusocio/material-theme).
 
 ## Material
 
@@ -15,4 +16,5 @@ A set of themes based on [equinusocio/material-theme](https://github.com/equinus
 ![](https://raw.githubusercontent.com/Microsoft/vscode-themes/master/material/images/material-night-eighties-preview.png)
 
 # LICENSE
+
 [MIT](LICENSE.txt)

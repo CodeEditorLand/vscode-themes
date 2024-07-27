@@ -1,4 +1,7 @@
 {
+	"name": "Theme-1337",
+	"displayName": "1337 Theme",
+	"description": "1337 Theme for VS Code based on the TextMate theme.",
 	"contributes": {
 		"themes": [
 			{
@@ -8,8 +11,5 @@
 			}
 		]
 	},
-	"description": "1337 Theme for VS Code based on the TextMate theme.",
-	"displayName": "1337 Theme",
-	"icon": "icon.png",
-	"name": "Theme-1337"
+	"icon": "icon.png"
 }
