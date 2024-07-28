@@ -1,7 +1,4 @@
 {
-	"name": "Theme-PredawnKit",
-	"displayName": "Predawn Theme Kit",
-	"description": "Predawn themes for VS Code. Based on the TextMate themes.",
 	"contributes": {
 		"themes": [
 			{
@@ -21,5 +18,8 @@
 			}
 		]
 	},
-	"icon": "icon.png"
+	"description": "Predawn themes for VS Code. Based on the TextMate themes.",
+	"displayName": "Predawn Theme Kit",
+	"icon": "icon.png",
+	"name": "Theme-PredawnKit"
 }

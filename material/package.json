@@ -1,7 +1,4 @@
 {
-	"name": "Theme-MaterialKit",
-	"displayName": "Material Theme Kit",
-	"description": "Material themes for VS Code. Based on the TextMate themes.",
 	"contributes": {
 		"themes": [
 			{
@@ -21,5 +18,8 @@
 			}
 		]
 	},
-	"icon": "icon.png"
+	"description": "Material themes for VS Code. Based on the TextMate themes.",
+	"displayName": "Material Theme Kit",
+	"icon": "icon.png",
+	"name": "Theme-MaterialKit"
 }
