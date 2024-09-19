@@ -1,15 +1,32 @@
 {
+	"name": "Theme-1337",
+	"displayName" : "1337 Theme",
+	"description": "1337 Theme for VS Code based on the TextMate theme.",
+	"version": "0.1.4",
+	"publisher": "ms-vscode",
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Themes"
+	],
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"bugs": {
+		"url": "https://github.com/Microsoft/vscode-themes/issues"
+	},
+	"homepage": "https://github.com/Microsoft/vscode-themes/blob/master/1337/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Microsoft/vscode-themes.git"
+	},
+	"icon":"icon.png",
 	"contributes": {
 		"themes": [
 			{
 				"label": "1337",
-				"path": "./themes/1337.tmTheme",
-				"uiTheme": "vs-dark"
+				"uiTheme": "vs-dark",
+				"path": "./themes/1337.tmTheme"
 			}
 		]
-	},
-	"description": "1337 Theme for VS Code based on the TextMate theme.",
-	"displayName": "1337 Theme",
-	"icon": "icon.png",
-	"name": "Theme-1337"
+	}
 }
