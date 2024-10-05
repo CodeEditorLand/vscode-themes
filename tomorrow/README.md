@@ -1,6 +1,7 @@
 # Tomorrow and Tomorrow Night Theme Kit
 
-A set of themes based on the tomorrow themes from [Colorsublime/Colorsublime-Themes](https://github.com/Colorsublime/Colorsublime-Themes).
+A set of themes based on the tomorrow themes from
+[Colorsublime/Colorsublime-Themes](https://github.com/Colorsublime/Colorsublime-Themes).
 
 ## Tomorrow
 
@@ -19,4 +20,5 @@ A set of themes based on the tomorrow themes from [Colorsublime/Colorsublime-The
 ![](https://raw.githubusercontent.com/Microsoft/vscode-themes/master/tomorrow/images/tomorrow-night-eighties-preview.png)
 
 # LICENSE
+
 [MIT](LICENSE.txt)
