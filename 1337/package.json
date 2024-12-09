@@ -8,7 +8,9 @@
 			}
 		]
 	},
+	"dependencies": {},
 	"description": "1337 Theme for VS Code based on the TextMate theme.",
+	"devDependencies": {},
 	"displayName": "1337 Theme",
 	"icon": "icon.png",
 	"name": "Theme-1337"

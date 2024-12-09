@@ -18,7 +18,9 @@
 			}
 		]
 	},
+	"dependencies": {},
 	"description": "Material themes for VS Code. Based on the TextMate themes.",
+	"devDependencies": {},
 	"displayName": "Material Theme Kit",
 	"icon": "icon.png",
 	"name": "Theme-MaterialKit"

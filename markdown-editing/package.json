@@ -1,4 +1,7 @@
 {
+	"name": "Theme-MarkdownKit",
+	"displayName": "Markdown Theme Kit",
+	"description": "Theme Kit for VS Code optimized for Markdown. Based on the TextMate themes.",
 	"contributes": {
 		"themes": [
 			{
@@ -23,8 +26,7 @@
 			}
 		]
 	},
-	"description": "Theme Kit for VS Code optimized for Markdown. Based on the TextMate themes.",
-	"displayName": "Markdown Theme Kit",
-	"icon": "icon.png",
-	"name": "Theme-MarkdownKit"
+	"dependencies": {},
+	"devDependencies": {},
+	"icon": "icon.png"
 }

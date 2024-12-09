@@ -1,4 +1,7 @@
 {
+	"name": "Theme-TomorrowKit",
+	"displayName": "Tomorrow and Tomorrow Night Theme Kit",
+	"description": "Additional Tomorrow and Tomorrow Night themes for VS Code. Based on the TextMate themes.",
 	"contributes": {
 		"themes": [
 			{
@@ -23,8 +26,7 @@
 			}
 		]
 	},
-	"description": "Additional Tomorrow and Tomorrow Night themes for VS Code. Based on the TextMate themes.",
-	"displayName": "Tomorrow and Tomorrow Night Theme Kit",
-	"icon": "icon.png",
-	"name": "Theme-TomorrowKit"
+	"dependencies": {},
+	"devDependencies": {},
+	"icon": "icon.png"
 }
