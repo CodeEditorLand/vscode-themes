@@ -1,4 +1,7 @@
 {
+	"name": "Theme-3024Kit",
+	"displayName": "3024 Theme Kit",
+	"description": "3024 Themes for VS Code based on the TextMate theme.",
 	"contributes": {
 		"themes": [
 			{
@@ -14,9 +17,6 @@
 		]
 	},
 	"dependencies": {},
-	"description": "3024 Themes for VS Code based on the TextMate theme.",
 	"devDependencies": {},
-	"displayName": "3024 Theme Kit",
-	"icon": "icon.png",
-	"name": "Theme-3024Kit"
+	"icon": "icon.png"
 }
